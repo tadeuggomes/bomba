@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    background-size: cover;
+    font-family: 'Anton';
+    color: #ffffff;
+    margin: 0;
+}
+
+#container{
+    background-image: none;
+    height: 100px;
+    width: 346px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#navegação{
+    background-image: none;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#equipe{
+    font-size: xx-large;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+#membros1{
+    background-image: none;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+#membros2{
+    background-image: none;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#contato{
+    color: #b09f83;
+}
+
+a{
+    margin: 10px;
+    text-decoration: none;
+}
