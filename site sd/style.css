@@ -9,7 +9,6 @@
 }
 
 #container{
-    background-image: none;
     height: 100px;
     width: 346px;
     position: absolute;
@@ -19,9 +18,15 @@
 }
 
 #navegação{
-    background-image: none;
     position: absolute;
     top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#navegaçãoHome{
+    position: absolute;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -29,23 +34,29 @@
 #equipe{
     font-size: xx-large;
     position: absolute;
-    top: 10%;
-    left: 5%;
+    top: 12%;
+    left: 11%;
 }
 
-#membros1{
-    background-image: none;
+#membros1{ 
     position: absolute;
-    top: 52%;
-    left: 10%;
+    top: 48%;
+    left: 15%;
     transform: translate(-50%, -50%);
 }
 
 #membros2{
-    background-image: none;
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 48%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    margin: 5px;
+}
+
+#membros3{
+    position: absolute;
+    top: 48%;
+    left: 75%;
     transform: translate(-50%, -50%);
 }
 
@@ -62,25 +73,65 @@
     color: #b09f83;
 }
 
+#prototipo img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover; 
+    border-radius: 12px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+#componentes{
+    width: 750px;
+    height: 470px;
+    background-color: #584e3f;
+    border-radius: 12px;
+    padding: 15px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#apps{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
 a{
     margin: 10px;
     text-decoration: none;
 }
 
-.colour{
-    color: #b09f83;
+h1{
+    
+    font-weight: bold;
 }
 
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.colour{
+    color: #518f00;
+}
+
+.nomeProjeto{
+    color: #2a8b38;
+}
+
+.nomeProjeto2{
+    color: #bf1e1e;
 }
 
 .image-container img {
-    width: 110px;
-    height: 110px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 120px;
     object-fit: cover; 
     border-radius: 10px; 
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
+    box-shadow: 3px 6px 12px #b09f83; 
 }
