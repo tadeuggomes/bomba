@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 *{
     background-size: cover;
-    font-family: 'Anton';
+    font-family: 'Passion One';
+    font-weight: 400;
     color: #ffffff;
     margin: 0;
 }
@@ -28,14 +29,14 @@
 #equipe{
     font-size: xx-large;
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 5%;
 }
 
 #membros1{
     background-image: none;
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 10%;
     transform: translate(-50%, -50%);
 }
@@ -48,6 +49,15 @@
     transform: translate(-50%, -50%);
 }
 
+#descrição{
+    height:200px;
+    width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
 #contato{
     color: #b09f83;
 }
@@ -55,4 +65,22 @@
 a{
     margin: 10px;
     text-decoration: none;
+}
+
+.colour{
+    color: #b09f83;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
 }
