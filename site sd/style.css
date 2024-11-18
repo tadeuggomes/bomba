@@ -22,8 +22,16 @@
 #navegação{
     border-top: 1px solid #b09f83;
     position: absolute;
-    top: 93%;
+    top: 95%;
     left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#navegaçãoM{
+    border-top: 1px solid #b09f83;
+    position: absolute;
+    top: 16%;
+    left: 20%;
     transform: translate(-50%, -50%);
 }
 
@@ -31,7 +39,7 @@
     width: 140px;
     height: 170px;
     position: absolute;
-    top: 52%;
+    top: 50%;
     left: 65%;
     transform: translate(-50%, -50%);
 }
@@ -97,9 +105,20 @@
 
 
 #montagem{
+    width: 600px; ;
+    height: 450px; ;
     position: absolute;
-    top: 18%;
-    left: 8.5%;
+    top: 55%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+}
+
+#montagem2{
+    width: 600px; ;
+    height: 450px; ;
+    position: absolute;
+    top: 55%;
+    left: 67%;
     transform: translate(-50%, -50%);
 }
 
@@ -117,7 +136,7 @@
 
 #componentes{
     width: 1100px;
-    height: 470px;
+    height: 485px;
     background-color: #584e3f;
     border-radius: 12px;
     padding: 15px;
@@ -142,7 +161,64 @@
     transform: translate(-50%, -50%);
 }
 
+#botao1{
+    background-color: #2a8b38;
+    width: 150px;
+    height: 25.5px;
+    border-radius: 12px;
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px;
+    text-align: center;
+}
+
+#botao2{
+    background-color: #2a8b38;
+    width: 150px;
+    height: 25px;
+    border-radius: 12px;
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px;
+    text-align: center;
+}
+
+#repositorio{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#download{
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+#problemas{
+    width: 450px;
+    height: 170px;
+    border-left: 1px solid #b09f83;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#lições{
+    width: 450px;
+    height: 170px;
+    position: absolute;
+    top: 50%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+}
+
 nav a{
+    color: #ffffff;
     margin: 12px;
     font-size: 15px;
     margin-bottom: 10px;
@@ -151,7 +227,6 @@ nav a{
 
 ul{
     margin: 10px;
-    text-decoration: underline 0.5px #a09075;
 }
 
 h1{
@@ -163,11 +238,35 @@ p{
     font-size: 15px;
 }
 
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: #2a8b38;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 .image-container img {
     margin-top: 35px;
     margin-bottom: 10px;
     width: 100px;
     height: 100px;
+    object-fit: cover; 
+    border-radius: 10px; 
+    box-shadow: 3px 6px 12px #b09f83; 
+}
+
+.imagem-container img {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 140px;
+    height: 140px;
     object-fit: cover; 
     border-radius: 10px; 
     box-shadow: 3px 6px 12px #b09f83; 
