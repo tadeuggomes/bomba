@@ -103,7 +103,6 @@
     color: #b09f83;
 }
 
-
 #montagem{
     width: 600px; ;
     height: 450px; ;
@@ -189,6 +188,17 @@
     top: 170%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#botao3{
+    background-color: #584e3f;
+    width: 150px;
+    height: 25px;
+    border-radius: 12px;
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px;
+    text-align: center;
 }
 
 #repositorio{
