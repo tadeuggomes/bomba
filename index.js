@@ -50,7 +50,7 @@ alterarCor()
 
 function tamanhoImagem(tamanhoImagem){
 
-    const imagens = document.querySelectorAll(".image-container img");
+    const imagens = document.querySelectorAll(".imagem-container img");
 
     imagens.forEach(imagem => {
         imagem.addEventListener("mouseover", function() {
