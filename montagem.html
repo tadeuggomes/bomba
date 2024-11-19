@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black;">
+
+    <h1 id="titulo">Montando uma B.<span class="nomeProjeto">O</span>.M.B.<span id="alternarCor">A</span></h1>
+
+    <div class="imagem-container" id="montagem">
+        <h2>Passo a passo:</h2>
+        <p>
+            <ul>
+                <h2>Passo 1: Separação dos itens</h2>
+                <div id="botão">
+                    <a href="./materiais.html">Lista de materiais</a>
+                </div>
+            </ul>
+
+            <ul>
+                <h2>Passo 2: Posicionamento dos itens</h2>
+                <li>Referente ao posicionamento na protoboard, a escolha se realiza de maneira preferencial. No entanto, para o posicionamento dos resistores, deve-se atentar às pernas do LED (resistores posicionados na perna positiva do LED) e do botão (resistores posicionados no segundo terminal do botão). Dessa forma:</li>
+                <img src="./img/WhatsApp Image 2024-11-18 at 15.21.03.jpeg" alt="Passo 2">
+                <img src="./img/WhatsApp Image 2024-11-18 at 15.21.04.jpeg" alt="Passo 2">
+            </ul>
+
+            <ul>
+                <h2>Passo 3: Configuração dos Jumpers dos LEDs</h2>
+                <li>Para ser possível configurar funções como apagar e acender, os Jumpers a serem utilizados devem ser conectados nos ânodos dos LEDs e em uma porta numerada do Arduino.</li>
+                <img src="./img/WhatsApp Image 2024-11-18 at 15.21.04 (1).jpeg" alt="">
+                <li>Em seguida, será necessário colocar um jumper (fio preto) na fileira negativa da protoboard ligado ao GND do Arduino para energizar a fileira.</li>
+                <img src="./img/WhatsApp Image 2024-11-18 at 15.21.04 (2).jpeg" alt="">
+                <li>Para energizar a fileira positiva da protoboard, um jumper (fio vermelho) deverá ser alocado na porta “5V” do arduino e na linha positiva da placa.</li>
+                <img src="./img/WhatsApp Image 2024-11-18 at 15.21.05.jpeg" alt="">
+            </ul>
+        </p>
+    </div>
+
+    <div class="imagem-container" id="montagem2">
+        <ul>
+            <h2>Passo 4: Configuração dos Jumpers dos botões</h2>
+            <li>Após a configuração dos jumpers referentes aos LEDs, o mesmo processo deve ser repetido com os botões, com o adicional de um fio ligando o primeiro terminal de cada botão com a fileira negativa, possibilitando o botão assumir duas funções conforme o seu estado (pressionado ou não).</li>
+            <img src="./img/WhatsApp Image 2024-11-18 at 15.21.05 (1).jpeg" alt="">
+        </ul>
+
+        <ul>
+            <h2>Passo 5: Configuração dos Jumpers para o Buzzer</h2>
+            <li>Para a finalização da parte física do projeto, será preciso conectar o pólo positivo do Buzzer em uma porta numerada e o pólo negativo na fileira negativa da protoboard.</li>
+            <img src="./img/WhatsApp Image 2024-11-18 at 15.21.05 (2).jpeg" alt="">
+        </ul>
+    </div>
+
+    <div id="videoTutorial">
+        <h2>Entenda melhor como funciona nossa B.O.M.B.A:</h2>
+        <iframe width="460" height="315" src="https://www.youtube.com/embed/TPEQy-zzTuI?si=vOEAYbucW6SLHOmu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    
+    <nav id="navegaçãoM">
+        <a href="index.html">HOME</a>
+        <a href="sobre.html">SOBRE</a> 
+        <a href="equipe.html">EQUIPE</a> 
+        <a href="materiais.html">MATERIAIS</a> 
+        <a href="montagem.html">MONTAGEM</a>
+        <a href="download.html">DOWNLOAD</a>
+    </nav>
+    <script src="index.js"></script>
+</body>
+</html>
